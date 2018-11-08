@@ -1,27 +1,35 @@
+#pragma once
+#include <iostream>
+
 class String {
 private:
 	uint32_t capacity;
 	uint32_t len;
 	char* s;
-	uint32_t stringlen(const char* str) {
-		uint32_t count = 0;
-		while (*str++ != '\0')
-			count++;
-		return count;
-	}
+	void expandCapacity(uint32_t, uint32_t);
 public:
   String();
-	String(const char str[]);
-	
-	String(const char str[], uint32_t mult);
+	String(const char*);
+	String(const char*, uint32_t);
+	//copy constructor
+	String(const String&);
 	~String();
 
-	//copy constructor
-	String(const String& orig);
 	String& operator =(const String& orig);
-	char  operator [](const uint32_t pos)const;
-	}
-  char& operator [](uint32_t pos);
-  friend ostream& operator<<(ostream& s, const String& str) {
-	}
+
+	uint32_t length() const;
+	uint32_t getCapacity() const;
+
+	void operator += (const char str[]);
+	void operator += (const String&);
+	String operator +(const String&) const;
+
+	char operator [](const uint32_t pos) const;
+	char& operator [](uint32_t pos);
+
+	String substring(uint32_t, uint32_t) const;
+	void replace(char, char);
+	void insert(uint32_t, const String&);
+
+  friend std::ostream& operator<<(std::ostream& s, const String& str);
 };

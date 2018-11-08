@@ -1,0 +1,8 @@
+In file included from /Users/chaochen/EE553/dynamic-memory-chao-chen-xiaoyun-liu/dynamicmemory/String/main.cc:2:
+/Users/chaochen/EE553/dynamic-memory-chao-chen-xiaoyun-liu/dynamicmemory/String/String.hh:21:11: error: redefinition of 'capacity' as different kind of symbol
+        uint32_t capacity() const;
+                 ^
+/Users/chaochen/EE553/dynamic-memory-chao-chen-xiaoyun-liu/dynamicmemory/String/String.hh:6:11: note: previous definition is here
+        uint32_t capacity;
+                 ^
+1 error generated.

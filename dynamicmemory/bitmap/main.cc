@@ -9,8 +9,8 @@ int main() {
 	Color BLUE(0,255,0);
 	Color GREEN(0,0,255);
 	Color WHITE(255,255,255);
-	
-	
+
+
 	b.line(0,0,   19,19, RED);
 	b.line(0,5,   29,10, BLUE); //Bresenham algorithm
 	//https://en.wikipedia.org/wiki/Bresenham's_line_algorithm
@@ -21,7 +21,7 @@ int main() {
 	b.vertLine(5, 0,19, GREEN); // from y = 0 to y=19 at x = 5
 	b.fillRect(10,10, 4, 3,BLACK); // x = 10, y =10 w=4, h=3
 	b.drawRect(10,10, 4, 3,WHITE); // x = 10, y =10 w=4, h=3
-  b.ellipse(15,0, 8, 5, RED);    // ellipse centered at (15,0) w= 8, h=5
+  b.ellipse(15, 0, 8, 5, RED);    // ellipse centered at (15,0) w= 8, h=5
 	cout << b;
 	/*
 R
@@ -36,7 +36,3 @@ BBB
 
 	 */
 }
-
-
-
-	
