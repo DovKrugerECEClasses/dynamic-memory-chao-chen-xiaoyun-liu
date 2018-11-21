@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chaochen/EE553/dynamic-memory-chao-chen-xiaoyun-liu/dynamicmemory/bitmap/Color.h
+cstdlib
+-
+
+/Users/chaochen/EE553/dynamic-memory-chao-chen-xiaoyun-liu/dynamicmemory/bitmap/main.cc
+iostream
+-
+algorithm
+-
+cmath
+-
+Color.h
+/Users/chaochen/EE553/dynamic-memory-chao-chen-xiaoyun-liu/dynamicmemory/bitmap/Color.h
+

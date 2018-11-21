@@ -1,3 +1,12 @@
+#include <cstdlib>
+
+class Bitmap {
+    int x;
+    int y;
+
+    uint32_t color;
+};
+
 int main() {
 	const uint32_t BLACK = 0xFF000000;
 	const uint32_t RED = 0xFFFF0000;
