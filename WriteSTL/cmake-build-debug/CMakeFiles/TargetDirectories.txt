@@ -1,0 +1,3 @@
+/Users/xiaoyun/Documents/EE553/dynamic-memory-chao-chen-xiaoyun-liu/WriteSTL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xiaoyun/Documents/EE553/dynamic-memory-chao-chen-xiaoyun-liu/WriteSTL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xiaoyun/Documents/EE553/dynamic-memory-chao-chen-xiaoyun-liu/WriteSTL/cmake-build-debug/CMakeFiles/WriteSTL.dir
