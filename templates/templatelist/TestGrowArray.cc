@@ -1,5 +1,5 @@
 #include "GrowArray.hh"
-#include "string"
+#include <string>
 using namespace std;
 
 class Elephant {
@@ -20,11 +20,11 @@ int main() {
 		a.addEnd(i);
 
 	a.removeEnd();
-	cout << a;
+	cout << a << '\n';
 
 	GrowArray<Elephant> e;
 	e.addEnd(Elephant("Alice"));
-  e.addEnd(Elephant("Betty"));
+  	e.addEnd(Elephant("Betty"));
 	cout << e << '\n';
 }
 	

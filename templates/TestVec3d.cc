@@ -1,4 +1,7 @@
+#include <iostream>
 #include "Vec3d.hh"
+
+using namespace std;
 
 int main() {
 	Vec3d<float> a(1,2,3);
